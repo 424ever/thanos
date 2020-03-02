@@ -19,7 +19,7 @@ sudo make install
 
 Prints out random thanos quotes found in the ```quotes``` file. All arguments are ignored.
 
-## thanoscat
+### thanoscat
 ```thanoscat [FILE]```
 
 Reads ```FILE```, or if no argument is given from ```stdin```, only printing half of the non-space characters to ```stdout```.
