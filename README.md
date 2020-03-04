@@ -1,7 +1,7 @@
 # thanos
 Some thanos utilities
 
-## Installationu
+## Installation
 ### Requirements
 - C compiler (change the line ```CC = gcc``` in the ```Makefile```, if you are not using gcc)
 - GNU make
@@ -12,3 +12,14 @@ cd thanos
 make
 sudo make install
 ```
+
+## Usage
+### thanos
+```thanos ```
+
+Prints out random thanos quotes found in the ```quotes``` file. All arguments are ignored.
+
+### thanoscat
+```thanoscat [FILE]```
+
+Reads ```FILE```, or if no argument is given from ```stdin```, only printing half of the non-space characters to ```stdout```.
