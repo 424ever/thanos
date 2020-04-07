@@ -23,3 +23,8 @@ Prints out random thanos quotes found in the ```quotes``` file. All arguments ar
 ```thanoscat [FILE]```
 
 Reads ```FILE```, or if no argument is given from ```stdin```, only printing half of the non-space characters to ```stdout```.
+
+### thanossay
+```thanossay [FILE]```
+
+Let thanos say either the contents of ```FILE```, or ```stdin```, when no arguments are given.
