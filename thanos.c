@@ -61,6 +61,7 @@ int main()
 
   fclose (quotes);
   free (header.table);
+  free (buf);
 
   return EXIT_SUCCESS;
 }
